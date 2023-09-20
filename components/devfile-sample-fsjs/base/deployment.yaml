@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fsjs
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0025-tenant/ci10t-777-0025-app/devfile-sample-fsjs@sha256:b5345758c2b9313333eaef5909398b46ac4d5a85579d047eacf96f02fa2856d3
         name: my-nodejs
         ports:
         - containerPort: 3001
